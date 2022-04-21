@@ -1,0 +1,254 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    background-color: rgb(29, 29, 29);
+    height: 100vh;
+    width: 100vw;
+}
+.topbar{
+    overflow: hidden;
+    background-color: #333;
+    transition: 0.6s;
+    top: 0;
+    width: 100%;
+    position: fixed;
+    z-index: 900;
+
+
+}
+.topbar a{
+    float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 16px ;
+  text-decoration: none;
+  font-size: 20px;
+  z-index: 900;
+}
+.baritem{
+    margin-left: 80px;
+    background-color: rgb(58, 104, 86);
+    color: antiquewhite;
+}
+.topbar a:hover{
+    background-color:#2b2525;
+    color: rgb(99, 248, 112);
+}
+#firstpage{
+    margin-left: 0;
+    margin-top: -50px;
+    width: 100vw;
+    height: 100vh;
+
+}
+h1{
+    color: aliceblue;
+    font-size: 120px;
+    margin-left: 80px;
+}
+#textfr{
+    padding-top: 10%;
+}
+#resumepage{
+    background-color: rgb(190, 96, 8);
+    height: 100vh;
+    width: 100vw;
+
+}
+#educationpage{
+    background-color: rgb(43, 33, 63);
+    height: 100vh;
+    width: 100vw;
+
+}
+#hobbypage{
+    background-color: rgb(32, 25, 34);
+    height: 100vh;
+    width: 100vw;
+
+}
+#bottompage{
+    height: 5vh;
+    width: 100vw;
+}
+
+
+
+
+
+
+.section{
+    color: rgb(255, 255, 255);
+    font-size: 80px;
+    margin-left: 50px;
+    padding-top: 5%;
+}
+#imgme{
+    border: 20px solid #ddd;
+     border-radius: 10px;
+    margin-left: 200px;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+}
+
+.textresume{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    text-align: justify;
+    margin-left: 400px;
+}
+#circleschool{
+    content: '';
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    left: 365px;
+    background-color: white;
+    border: 10px solid #FF9F55;
+    top: 250%;
+    border-radius: 50%;
+    z-index: 1;
+}
+#circleuni{
+    content: '';
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    left: 365px;
+    background-color: white;
+    border: 10px solid #FF9F55;
+    top: 290%;
+    border-radius: 50%;
+    z-index: 2;
+}
+#timeline{
+    padding-top: 20%;
+    background-color: rgb(255, 255, 255);
+    width: 20px;
+    height: 260px;
+    margin-left: 400px;
+    z-index: 150;
+}
+#nameschool{
+    font-size: 50px;
+    position: absolute;
+    top: 245%;
+    left: 35%;
+    color: rgb(255, 255, 255);
+}
+#nameuni{
+    font-size: 50px;
+    position: absolute;
+    top: 285%;
+    left: 35%;
+    color: rgb(255, 255, 255);
+}
+#iconvideo{
+    border: 20px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    position: absolute;
+    left: 5%;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+#textvideo{
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    position: absolute;
+    left: 22%;
+    
+}
+#tebhob{
+    padding-top: 20%;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    left: 50%;
+    width: 20px;
+    height: 40px;
+    z-index: 150;
+}
+#icongame{
+    border: 20px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    position: absolute;
+    left: 55%;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+#textgame{
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    position: absolute;
+    left: 72%;
+}
+#textbottom{
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    position: absolute;
+    left: 10px;
+}
+#source{
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    position: absolute;
+    right: 50px;
+}
+#icongithub{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 437%;
+    right: 10px;
+    z-index: 900;
+}
+#backgit{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    top:437%;
+    right: 10px;
+    width: 21px;
+    height: 21px;
+    border-radius: 50%;
+
+}
+
+
+
+
+
+
+.slidetext{
+    animation-name: slidetext;
+    animation-duration: 1s;
+    visibility: visible;
+}
+@keyframes slidetext{
+    0%{
+        opacity: 0;
+        transform: translateX(-70%);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0%);
+    }
+}
+#loading{
+    position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0;
+  padding: 0;
+  margin: auto;
+  background-image: url(images/slime.png);
+  background-color: rgb(29, 29, 29);
+  background-repeat: no-repeat;
+  background-position: center center;
+  z-index: 1000;
+}
