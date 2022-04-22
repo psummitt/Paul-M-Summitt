@@ -1,13 +1,15 @@
-html{
+html {
     scroll-behavior: smooth;
 }
-body{
+
+body {
     margin: 0;
     background-color: rgb(29, 29, 29);
     height: 100vh;
     width: 100vw;
 }
-.topbar{
+
+.topbar {
     overflow: hidden;
     background-color: #333;
     transition: 0.6s;
@@ -15,92 +17,99 @@ body{
     width: 100%;
     position: fixed;
     z-index: 900;
-
-
 }
-.topbar a{
+
+.topbar a {
     float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 16px ;
-  text-decoration: none;
-  font-size: 20px;
-  z-index: 900;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    font-size: 20px;
+    z-index: 900;
 }
-.baritem{
+
+.baritem {
     margin-left: 80px;
     background-color: rgb(58, 104, 86);
     color: antiquewhite;
 }
-.topbar a:hover{
-    background-color:#2b2525;
+
+.topbar a:hover {
+    background-color: #2b2525;
     color: rgb(99, 248, 112);
 }
-#firstpage{
+
+#firstpage {
     margin-left: 0;
     margin-top: -50px;
     width: 100vw;
     height: 100vh;
-
 }
-h1{
+
+h1 {
     color: aliceblue;
-    font-size: 120px;
+    font-size: 160px;
     margin-left: 80px;
 }
-#textfr{
+
+h2 {
+    color: rgb(117, 181, 236);
+    font-size: 80px;
+    margin-left: 80px;
+}
+
+#textfr {
     padding-top: 10%;
 }
-#resumepage{
+
+#resumepage {
     background-color: rgb(190, 96, 8);
     height: 100vh;
     width: 100vw;
-
 }
-#educationpage{
+
+#educationpage {
     background-color: rgb(43, 33, 63);
     height: 100vh;
     width: 100vw;
-
 }
-#hobbypage{
+
+#hobbypage {
     background-color: rgb(32, 25, 34);
     height: 100vh;
     width: 100vw;
-
 }
-#bottompage{
+
+#bottompage {
     height: 5vh;
     width: 100vw;
 }
 
-
-
-
-
-
-.section{
+.section {
     color: rgb(255, 255, 255);
     font-size: 80px;
     margin-left: 50px;
     padding-top: 5%;
 }
-#imgme{
+
+#imgme {
     border: 20px solid #ddd;
-     border-radius: 10px;
+    border-radius: 10px;
     margin-left: 200px;
     width: 350px;
     height: 350px;
     border-radius: 50%;
 }
 
-.textresume{
+.textresume {
     color: rgb(255, 255, 255);
     font-size: 30px;
     text-align: justify;
     margin-left: 400px;
 }
-#circleschool{
+
+#circleschool {
     content: '';
     position: absolute;
     width: 75px;
@@ -112,7 +121,8 @@ h1{
     border-radius: 50%;
     z-index: 1;
 }
-#circleuni{
+
+#circleuni {
     content: '';
     position: absolute;
     width: 75px;
@@ -124,7 +134,8 @@ h1{
     border-radius: 50%;
     z-index: 2;
 }
-#timeline{
+
+#timeline {
     padding-top: 20%;
     background-color: rgb(255, 255, 255);
     width: 20px;
@@ -132,21 +143,56 @@ h1{
     margin-left: 400px;
     z-index: 150;
 }
-#nameschool{
+
+#nameschool {
     font-size: 50px;
     position: absolute;
     top: 245%;
     left: 35%;
     color: rgb(255, 255, 255);
 }
-#nameuni{
+
+#degree1 {
+    font-size: 30px;
+    position: absolute;
+    top: 255%;
+    left: 35%;
+    color: rgb(255, 255, 255);
+}
+
+#year1 {
+    font-size: 25px;
+    position: absolute;
+    top: 260%;
+    left: 35%;
+    color: rgb(255, 255, 255);
+}
+
+#nameuni {
     font-size: 50px;
     position: absolute;
     top: 285%;
     left: 35%;
     color: rgb(255, 255, 255);
 }
-#iconvideo{
+
+#degree2 {
+    font-size: 30px;
+    position: absolute;
+    top: 295%;
+    left: 35%;
+    color: rgb(255, 255, 255);
+}
+
+#year2 {
+    font-size: 25px;
+    position: absolute;
+    top: 300%;
+    left: 35%;
+    color: rgb(255, 255, 255);
+}
+
+#iconvideo {
     border: 20px solid rgb(255, 255, 255);
     border-radius: 10px;
     position: absolute;
@@ -155,14 +201,15 @@ h1{
     height: 200px;
     border-radius: 50%;
 }
-#textvideo{
+
+#textvideo {
     color: rgb(255, 255, 255);
     font-size: 50px;
     position: absolute;
     left: 22%;
-    
 }
-#tebhob{
+
+#tebhob {
     padding-top: 20%;
     position: absolute;
     background-color: rgb(255, 255, 255);
@@ -171,7 +218,8 @@ h1{
     height: 40px;
     z-index: 150;
 }
-#icongame{
+
+#icongame {
     border: 20px solid rgb(255, 255, 255);
     border-radius: 10px;
     position: absolute;
@@ -180,25 +228,29 @@ h1{
     height: 200px;
     border-radius: 50%;
 }
-#textgame{
+
+#textgame {
     color: rgb(255, 255, 255);
     font-size: 50px;
     position: absolute;
     left: 72%;
 }
-#textbottom{
+
+#textbottom {
     color: rgb(255, 255, 255);
     font-size: 17px;
     position: absolute;
     left: 10px;
 }
-#source{
+
+#source {
     color: rgb(255, 255, 255);
     font-size: 17px;
     position: absolute;
     right: 50px;
 }
-#icongithub{
+
+#icongithub {
     width: 20px;
     height: 20px;
     position: absolute;
@@ -206,49 +258,46 @@ h1{
     right: 10px;
     z-index: 900;
 }
-#backgit{
+
+#backgit {
     position: absolute;
     background-color: rgb(255, 255, 255);
-    top:437%;
+    top: 437%;
     right: 10px;
     width: 21px;
     height: 21px;
     border-radius: 50%;
-
 }
 
-
-
-
-
-
-.slidetext{
+.slidetext {
     animation-name: slidetext;
     animation-duration: 1s;
     visibility: visible;
 }
-@keyframes slidetext{
-    0%{
+
+@keyframes slidetext {
+    0% {
         opacity: 0;
         transform: translateX(-70%);
     }
-    100%{
+    100% {
         opacity: 1;
         transform: translateX(0%);
     }
 }
-#loading{
+
+#loading {
     position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  margin: 0;
-  padding: 0;
-  margin: auto;
-  background-image: url(images/slime.png);
-  background-color: rgb(29, 29, 29);
-  background-repeat: no-repeat;
-  background-position: center center;
-  z-index: 1000;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+    padding: 0;
+    margin: auto;
+    background-image: url(images/slime.png);
+    background-color: rgb(29, 29, 29);
+    background-repeat: no-repeat;
+    background-position: center center;
+    z-index: 1000;
 }
