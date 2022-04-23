@@ -256,6 +256,7 @@ h2 {
     position: absolute;
     top: 437%;
     right: 10px;
+    z-index: 900;
 }
 
 #backgit {
