@@ -29,15 +29,15 @@ body {
     z-index: 900;
 }
 
+.topbar a:hover {
+    background-color: #2b2525;
+    color: rgb(99, 248, 112);
+}
+
 .baritem {
     margin-left: 80px;
     background-color: rgb(58, 104, 86);
     color: antiquewhite;
-}
-
-.topbar a:hover {
-    background-color: #2b2525;
-    color: rgb(99, 248, 112);
 }
 
 #firstpage {
@@ -75,7 +75,7 @@ h2 {
     width: 100vw;
 }
 
-#hobbypage {
+#projectpage {
     background-color: rgb(32, 25, 34);
     height: 100vh;
     width: 100vw;
