@@ -109,32 +109,6 @@ h2 {
     margin-left: 400px;
 }
 
-#circleschool {
-    content: '';
-    position: absolute;
-    width: 75px;
-    height: 75px;
-    left: 365px;
-    background-color: white;
-    border: 10px solid #FF9F55;
-    top: 250%;
-    border-radius: 50%;
-    z-index: 1;
-}
-
-#circleuni {
-    content: '';
-    position: absolute;
-    width: 75px;
-    height: 75px;
-    left: 365px;
-    background-color: white;
-    border: 10px solid #FF9F55;
-    top: 290%;
-    border-radius: 50%;
-    z-index: 2;
-}
-
 #timeline {
     padding-top: 20%;
     background-color: rgb(255, 255, 255);
