@@ -75,7 +75,7 @@ h2 {
     width: 100vw;
 }
 
-#projectpage {
+#projects {
     background-color: rgb(32, 25, 34);
     height: 100vh;
     width: 100vw;
@@ -146,49 +146,16 @@ h2 {
 
 #nameschool {
     font-size: 50px;
-    position: absolute;
-    top: 245%;
-    left: 35%;
     color: rgb(255, 255, 255);
 }
 
-#degree1 {
+#degree {
     font-size: 30px;
-    position: absolute;
-    top: 255%;
-    left: 35%;
     color: rgb(255, 255, 255);
 }
 
-#year1 {
+#year {
     font-size: 25px;
-    position: absolute;
-    top: 260%;
-    left: 35%;
-    color: rgb(255, 255, 255);
-}
-
-#nameuni {
-    font-size: 50px;
-    position: absolute;
-    top: 285%;
-    left: 35%;
-    color: rgb(255, 255, 255);
-}
-
-#degree2 {
-    font-size: 30px;
-    position: absolute;
-    top: 295%;
-    left: 35%;
-    color: rgb(255, 255, 255);
-}
-
-#year2 {
-    font-size: 25px;
-    position: absolute;
-    top: 300%;
-    left: 35%;
     color: rgb(255, 255, 255);
 }
 
