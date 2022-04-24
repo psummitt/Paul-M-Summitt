@@ -109,15 +109,6 @@ h2 {
     margin-left: 400px;
 }
 
-#timeline {
-    padding-top: 20%;
-    background-color: rgb(255, 255, 255);
-    width: 20px;
-    height: 260px;
-    margin-left: 400px;
-    z-index: 150;
-}
-
 #nameschool {
     font-size: 50px;
     color: rgb(255, 255, 255);
