@@ -88,10 +88,6 @@ h2 {
 /* Projects
 ------------------------------------*/
 
-.projects {
-    background: #F7FFF7;
-}
-
 .projects a {
     color: #2F3061;
 }
@@ -122,6 +118,8 @@ h2 {
 
 .project-item h3 {
     margin-top: 0;
+    color: rgb(117, 181, 236);
+    font-family: 'Caveat', cursive;
 }
 
 #bottompage {
