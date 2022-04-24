@@ -1,49 +1,65 @@
-<!DOCTYPE html> @viewport { width: extend-to-zoom 980px; min-zoom: 0.25; max-zoom: 5; }
-
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
-    <title>Paul M. Summitt Portfolio About page</title>
-    <link rel="stylesheet" href="css/style.css">
-    <script src="reloading.js"></script>
-    <script src="wheelcontroll.js"></script>
-</head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<body onload="timeout()">
-    <div class="topbar" id="topicbar">
-        <i class="fabar"></i>
-        <a href="index.html" class="baritem">HOME</a>
-        <a href="about.html">ABOUT</a>
-        <a href="education">EDUCATION</a>
-        <a href="certs.html">CERTIFICATIONS</a>
-        <a href="projects.html"> PAST PROJECTS</a>
-    </div>
-    <article>
-        <p class="section">About me</p>
-        <table>
-            <tr>
-                <th>
-                    <img src="images/me.jpg" title="paul" id="imgme">
-                </th>
-                <th>
-                    <p id="name" class="textresume">Name: Paul M. Summitt</p>
-                    <p class="textresume">Age: 68</p>
-                    <p class="textresume">Birthday: 7 April 1954</p>
-                    <p class="textresume">Sex: male</p>
-                    <p class="textresume">Resume: <a href="PMSFunctionalResume.pdf">Download</a></p>
-                </th>
-            </tr>
-        </table>
-    </article>
-    <footer>
-        <p id="textbottom">©2022 by Paul M. Summitt
-            <p id="source"> source code :
-                <a href="https://github.com/psummitt/psummitt"><img src="images/Github.png" title="github" id="icongithub"></a>
+    <head>
+        <meta charset="UTF-8">
+        <title>Paul M. Summitt Portfolio About page</title>
+        <link rel="stylesheet" href="css/style.css">
+        <script src="reloading.js"></script>
+        <script src="wheelcontroll.js"></script>
+    </head>
+
+    <body onload="timeout()">
+        <div class="topbar" id="topicbar">
+            <i class="fabar"></i>
+            <a href="index.html" class="baritem">HOME</a>
+            <a href="about.html">ABOUT</a>
+            <a href="education">EDUCATION</a>
+            <a href="certs.html">CERTIFICATIONS</a>
+            <a href="projects.html"> PAST PROJECTS</a>
+        </div>
+        <!-- ***************  ABOUT / PROFILE  **************** -->
+        <article>
+            <p class="section">About me</p>
+            <table>
+                <tr>
+                    <th>
+                        <img src="images/me.jpg" title="paul" id="imgme">
+                    </th>
+                    <th>
+                        <p id="name" class="textresume">Name: Paul M. Summitt</p>
+                        <p class="textresume">Age: 68</p>
+                        <p class="textresume">Birthday: 7 April 1954</p>
+                        <p class="textresume">Sex: male</p>
+                        <p class="textresume">Resume: <a href="PMSFunctionalResume.pdf">Download</a></p>
+                    </th>
+                </tr>
+            </table>
+        </article>
+        <footer>
+            <div class="content-wrap">
+                <h2>Let's Keep in Touch!</h2>
+
+                <!-- Social media and contact links. Add or remove any networks. -->
+                <ul>
+                    <li><a href="mailto:email@example.com">email@example.com</a></li>
+                    <li><a href="http://christinatruong.com" target="_blank">christinatruong.com</a></li>
+                    <li><a href="http://twitter.com/christinatruong" target="_blank">Twitter</a></li>
+                    <li><a href="#" target="_blank">LinkedIn</a></li>
+                </ul>
+            </div>
+
+            <p id="textbottom">©2022 by Paul M. Summitt
+                <p id="source"> source code :
+                    <a href="https://github.com/psummitt/psummitt"><img src="images/Github.png" title="github" id="icongithub"></a>
+                </p>
             </p>
-        </p>
-    </footer>
+        </footer>
 
-</body>
+    </body>
 
 </html>

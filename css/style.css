@@ -4,6 +4,7 @@ html {
 
 body {
     margin: 0;
+    padding: 0;
     background-color: rgb(29, 29, 29);
     height: 100vh;
     width: 100vw;
@@ -48,6 +49,7 @@ body {
 }
 
 h1 {
+    font-family: 'Caveat', cursive;
     color: aliceblue;
     font-size: 160px;
     margin-left: 80px;
@@ -55,6 +57,7 @@ h1 {
 
 h2 {
     color: rgb(117, 181, 236);
+    font-family: 'Caveat', cursive;
     font-size: 80px;
     margin-left: 80px;
 }
@@ -81,9 +84,58 @@ h2 {
     width: 100vw;
 }
 
+
+/* Projects
+------------------------------------*/
+
+.projects {
+    background: #F7FFF7;
+}
+
+.projects a {
+    color: #2F3061;
+}
+
+.projects .btn {
+    color: #F7FFF7;
+    background: #2F3061;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+.projects .btn:hover {
+    background: rgba(47, 48, 97, 80%);
+}
+
+.project-item {
+    overflow: hidden;
+    border-bottom: 1px dashed #343434;
+    padding: 25px 0;
+}
+
+.project-item img {
+    float: left;
+    margin-right: 20px;
+}
+
+.project-item h3 {
+    margin-top: 0;
+}
+
 #bottompage {
     height: 5vh;
     width: 100vw;
+}
+
+
+/* Contact Info
+------------------------------------*/
+
+footer {
+    background: #343434;
+    color: #F7FFF7;
 }
 
 .section {
