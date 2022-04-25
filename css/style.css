@@ -235,6 +235,13 @@ footer {
     left: 10px;
 }
 
+.textfooter {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    text-align: justify;
+    margin-left: 400px;
+}
+
 #source {
     color: rgb(255, 255, 255);
     font-size: 17px;
