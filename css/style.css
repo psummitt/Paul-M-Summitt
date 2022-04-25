@@ -61,7 +61,6 @@ h2 {
 
 .texteducation {
     color: rgb(255, 255, 255);
-    text-align: justify;
     margin-left: 400px;
 }
 
@@ -70,15 +69,15 @@ h2 {
     margin-left: 100px;
 }
 
+
+/* Projects
+------------------------------------*/
+
 #projects {
     background-color: rgb(32, 25, 34);
     height: 100vh;
     width: 100vw;
 }
-
-
-/* Projects
-------------------------------------*/
 
 .projects a {
     color: #2F3061;
