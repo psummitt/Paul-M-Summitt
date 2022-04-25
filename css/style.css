@@ -67,7 +67,7 @@ h2 {
 
 .table {
     border-spacing: 50px;
-    margin-left: 200px;
+    margin-left: 100px;
 }
 
 #projects {
@@ -220,7 +220,7 @@ footer {
     color: rgb(255, 255, 255);
     font-size: 25px;
     text-align: justify;
-    margin-left: 400px;
+    margin-left: 50px;
 }
 
 #source {
