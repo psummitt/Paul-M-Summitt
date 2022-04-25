@@ -84,6 +84,10 @@ h2 {
     margin-left: 400px;
 }
 
+.table {
+    border-spacing: 30px;
+}
+
 #projects {
     background-color: rgb(32, 25, 34);
     height: 100vh;
