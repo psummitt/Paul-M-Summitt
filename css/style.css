@@ -41,13 +41,6 @@ body {
     color: antiquewhite;
 }
 
-#firstpage {
-    margin-left: 0;
-    margin-top: -50px;
-    width: 100vw;
-    height: 100vh;
-}
-
 h1 {
     font-family: 'Caveat', cursive;
     color: aliceblue;
