@@ -78,6 +78,12 @@ h2 {
     width: 100vw;
 }
 
+.texteducation {
+    color: rgb(255, 255, 255);
+    text-align: justify;
+    margin-left: 400px;
+}
+
 #projects {
     background-color: rgb(32, 25, 34);
     height: 100vh;
