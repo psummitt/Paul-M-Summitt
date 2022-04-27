@@ -142,6 +142,15 @@ footer {
     border-radius: 50%;
 }
 
+#imgdiploma {
+    border: 20px solid #ddd;
+    border-radius: 10px;
+    margin-left: 100px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
 .textresume {
     color: rgb(255, 255, 255);
     font-size: 30px;
