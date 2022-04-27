@@ -26,13 +26,39 @@
         </div>
 
         <article>
-            <p class="section">Certifications</p>
+            <p class="section">Certifications & Awards</p>
 
         </article>
         <footer>
             <div>
                 <p id="textfooter">Let's Keep in Touch!</p>
+                <!-- The grid: four columns -->
+                <div class="row">
+                    <div class="column">
+                        <img src="/images/" alt="Nature" onclick="myFunction(this);">
+                    </div>
+                    <div class="column">
+                        <img src="/images/" alt="Snow" onclick="myFunction(this);">
+                    </div>
+                    <div class="column">
+                        <img src="/images/" alt="Mountains" onclick="myFunction(this);">
+                    </div>
+                    <div class="column">
+                        <img src="/images/" alt="Lights" onclick="myFunction(this);">
+                    </div>
+                </div>
 
+                <!-- The expanding image container -->
+                <div class="container">
+                    <!-- Close the image -->
+                    <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+
+                    <!-- Expanded image -->
+                    <img id="expandedImg" style="width:100%">
+
+                    <!-- Image text -->
+                    <div id="imgtext"></div>
+                </div>
                 <!-- Social media and contact links. Add or remove any networks. -->
                 <ul>
                     <li><a href="mailto:paulmsummitt@gmail.com">paulmsummitt@gmail.com</a></li>
