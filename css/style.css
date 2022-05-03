@@ -176,23 +176,6 @@ footer {
     margin-left: 100;
 }
 
-#iconvideo {
-    border: 20px solid rgb(255, 255, 255);
-    border-radius: 10px;
-    position: absolute;
-    left: 5%;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-}
-
-#textvideo {
-    color: rgb(255, 255, 255);
-    font-size: 50px;
-    position: absolute;
-    left: 22%;
-}
-
 #tebhob {
     padding-top: 20%;
     position: absolute;
@@ -203,21 +186,12 @@ footer {
     z-index: 150;
 }
 
-#icongame {
-    border: 20px solid rgb(255, 255, 255);
-    border-radius: 10px;
-    position: absolute;
-    left: 55%;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-}
 
-#textgame {
-    color: rgb(255, 255, 255);
-    font-size: 50px;
-    position: absolute;
-    left: 72%;
+/* footer */
+
+#bottompage {
+    height: 5vh;
+    width: 100vw;
 }
 
 #textbottom {
@@ -264,11 +238,6 @@ footer {
     animation-name: slidetext;
     animation-duration: 1s;
     visibility: visible;
-}
-
-#bottompage {
-    height: 5vh;
-    width: 100vw;
 }
 
 @keyframes slidetext {
