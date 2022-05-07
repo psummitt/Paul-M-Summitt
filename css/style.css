@@ -147,11 +147,8 @@ footer {
 
 #imgdiploma {
     border: 20px solid #ddd;
-    border-radius: 10px;
-    margin-left: 100px;
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
+    width: 320px;
+    height: 240px;
 }
 
 .textresume {
