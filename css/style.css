@@ -1,13 +1,14 @@
 html {
     scroll-behavior: smooth;
+    box-sizing: border-box;
 }
 
 body {
     margin: 0;
     padding: 0;
     background-color: rgb(29, 29, 29);
-    height: 100vh;
-    width: 100vw;
+    font-size: 15px;
+    line-height: 1.5;
 }
 
 h1 {
@@ -71,7 +72,8 @@ h2 {
 /* Projects
 ------------------------------------*/
 
-#projects {
+
+/* / #projects {
     background-color: rgb(32, 25, 34);
     height: 100vh;
     width: 100vw;
@@ -110,6 +112,7 @@ h2 {
     color: rgb(117, 181, 236);
     font-family: 'Caveat', cursive;
 }
+*/
 
 
 /* Contact Info
@@ -176,6 +179,8 @@ footer {
     margin-left: 100;
 }
 
+
+/*
 #tebhob {
     padding-top: 20%;
     position: absolute;
@@ -185,6 +190,7 @@ footer {
     height: 40px;
     z-index: 150;
 }
+*/
 
 
 /* footer */
@@ -210,20 +216,18 @@ footer {
 
 #source {
     color: rgb(255, 255, 255);
-    font-size: 17px;
+    font-size: 18px;
     position: absolute;
-    right: 50px;
+    right: 90px;
 }
 
 #icongithub {
     width: 20px;
     height: 20px;
-    position: absolute;
-    top: 437%;
-    right: 10px;
-    z-index: 900;
 }
 
+
+/*
 #backgit {
     position: absolute;
     background-color: rgb(255, 255, 255);
@@ -233,6 +237,7 @@ footer {
     height: 21px;
     border-radius: 50%;
 }
+*/
 
 .slidetext {
     animation-name: slidetext;
@@ -249,20 +254,4 @@ footer {
         opacity: 1;
         transform: translateX(0%);
     }
-}
-
-#loading {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: 0;
-    padding: 0;
-    margin: auto;
-    background-image: url(images/slime.png);
-    background-color: rgb(29, 29, 29);
-    background-repeat: no-repeat;
-    background-position: center center;
-    z-index: 1000;
 }
