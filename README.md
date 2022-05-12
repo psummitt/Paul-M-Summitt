@@ -1,7 +1,7 @@
 # Hi, I’m Paul M. Summitt!
 I’m interested in all sorts of things including computers, Karaoke, guitar playing, photography, strategic simulation design, and web design and development.
 I’m currently familiar and working with *Android*, *C#*, *CSS*, *HTML*, *Java*, *JavaScript*, *Kotlin*, and *PHP*.
-I would be interested collaborating on a variety of projects.
+I would be interested in collaborating on a variety of projects.
 You can reach me at psummitt@gmail.com.
 
 <!---
