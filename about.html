@@ -12,40 +12,64 @@
     <meta property="og:image:alt" content="Image of Paul M. Summitt">
     <title>Paul M. Summitt Portfolio About Me</title>
     <link rel="stylesheet" href="css/style.css">
-    <script src="reloading.js"></script>
-    <script src="wheelcontroll.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
 
-<body onload="timeout()">
-    <header>
-        <div class="topbar" id="topicbar">
-            <i class="fabar"></i>
-            <a href="index.html" class="baritem">HOME</a>
-            <a href="about.html">ABOUT</a>
-            <a href="education.html">EDUCATION</a>
-            <!--<a href="certs.html">CERTIFICATIONS</a>
-            <a href="projects.html">PAST PROJECTS</a> -->
-            <a href="publications.html">PUBLICATIONS</a>
+<body onload="timeout()" class="bg-dark">
+    <nav class="navbar navbar-expand-lg bg-dark ">
+        <div class="container-fluid">
+          <a class="navbar-brand link-light" href="#">Paul M. Summitt</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active link-light" aria-current="page" href="index.html">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link-light" href="about.html">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link-light" href="#education.html">EDUCATION</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link-light" href="publications.html">PUBLICATIONS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled link-light">CERTIFICATIONS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled link-light">PAST PROJECTS</a>
+              </li>
+            </ul>
+          </div>
         </div>
-    </header>
+      </nav>
+
     <!-- ***************  ABOUT / PROFILE  **************** -->
-    <article>
-        <p class="section">About me</p>
-        <table>
-            <tr>
-                <th>
-                    <img src="images/me.jpg" title="paul" id="imgme">
-                </th>
-                <th>
-                    <p id="name" class="textresume">Name: Paul M. Summitt</p>
-                    <p class="textresume">Age: 68</p>
-                    <p class="textresume">Birthday: 7 April 1954</p>
-                    <p class="textresume">Sex: male</p>
-                    <p class="textresume">Resume: <a href="PMSFunctionalResume.pdf">Download</a></p>
-                </th>
-            </tr>
-        </table>
-    </article>
+    <div class="container-fluid">
+        <h1 class="slidetext display-1 text-bg-dark p-3">About me</h1>
+        <div class="row-fluid">
+            <div class="col">
+                <div class="card" style="width: 18 rem;">
+                    <img src="images/me.jpg" class="card-img-top" alt="Paul M. Summitt">
+                    <div class="card-body">
+                        <h5 class="card-title">Name: Paul M. Summitt</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+                <div class="card" style="width: 18rem;">
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">Age: 68</li>
+                      <li class="list-group-item">Birthday: 7 April 1954</li>
+                      <li class="list-group-item">Sex: male</li>
+                      <li class="list-group-item"><a href="PMSFunctionalResume.pdf""#" class="card-link">Download Resume</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
     <footer>
         <div>
             <p id="textfooter">Let's Keep in Touch!</p>
@@ -65,6 +89,9 @@
             </p>
         </p>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="reloading.js "></script>
+    <script src="wheelcontroll.js "></script>
 </body>
 
 </html>
