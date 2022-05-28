@@ -12,21 +12,41 @@
     <meta property="og:image:alt" content="Image of Paul M. Summitt">
     <title>Paul M. Summitt's Portfolio</title>
     <link rel="stylesheet" href="css/style.css">
-    <script src="reloading.js"></script>
-    <script src="wheelcontroll.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
 
 <body onload="timeout()">
-    <header>
-        <div class="topbar" id="topicbar">
-            <a href="index.html" class="baritem">HOME</a>
-            <a href="about.html">ABOUT</a>
-            <a href="education.html">EDUCATION</a>
-            <!--<a href="certs.html">CERTIFICATIONS</a>
-            <a href="projects.html">PAST PROJECTS</a> -->
-            <a href="publications.html">PUBLICATIONS</a>
+    <nav class="navbar navbar-expand-lg bg-dark ">
+        <div class="container-fluid">
+          <a class="navbar-brand link-light" href="#">Paul M. Summitt</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active link-light" aria-current="page" href="index.html">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link-light" href="about.html">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link-light" href="#education.html">EDUCATION</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link-light" href="publications.html">PUBLICATIONS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled link-light">CERTIFICATIONS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled link-light">PAST PROJECTS</a>
+              </li>
+            </ul>
+          </div>
         </div>
-    </header>
+      </nav>
+
     <article>
         <div id="textfr">
             <h2 class="slidetext">
@@ -56,6 +76,9 @@
             </p>
         </p>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="reloading.js "></script>
+    <script src="wheelcontroll.js "></script>
 </body>
 
 </html>
