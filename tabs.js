@@ -1,4 +1,5 @@
-function openVendor(evt, vendorName) {
+
+function openVendor(evt, vendor) {
   // Declare all variables
   var i, tabcontent, tablinks;
 
@@ -15,6 +16,6 @@ function openVendor(evt, vendorName) {
   }
 
   // Show the current tab, and add an "active" class to the button that opened the tab
-  document.getElementById(vendorName).style.display = "block";
+  document.getElementById(vendor).style.display = "block";
   evt.currentTarget.className += " active";
-}
+  }
