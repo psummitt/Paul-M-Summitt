@@ -6,6 +6,7 @@ html {
 body {
     margin: 0;
     padding: 0;
+    background-image: url();
     background-color: rgb(29, 29, 29);
     font-size: 15px;
 }
