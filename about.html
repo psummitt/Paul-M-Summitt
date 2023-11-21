@@ -10,7 +10,7 @@
     <meta property="og:url" content="https://psummitt.github.io/psummitt/about.html">
     <meta property="og:image" content="https://psummitt.github.io/psummitt/images/me.jpg">
     <meta property="og:image:alt" content="Image of Paul M. Summitt">
-    <meta name="" author" content="" Paul M. Summitt">
+    <meta name="author" content="Paul M. Summitt">
     <title>About Me</title>
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <link rel="stylesheet" href="css/style.css">
@@ -18,10 +18,31 @@
     <script async src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
     <script async src="/js/reloading.js "></script>
     <script async src="/js/wheelcontroll.js "></script>
+    <script>
+        function calculateAgeOnLoad() {
+            // Pre-set the birthday to April 7, 1954
+            var birthday = new Date('1954-04-07');
 
+            // Calculate the age
+            var today = new Date();
+            var age = today.getFullYear() - birthday.getFullYear();
+
+            // Check if birthday hasn't occurred yet this year
+            if (
+                today.getMonth() < birthday.getMonth() ||
+                (today.getMonth() === birthday.getMonth() && today.getDate() < birthday.getDate())
+            ) {
+                age--;
+            }
+
+            // Display the result
+            var resultElement = document.getElementById('result');
+            resultElement.textContent = 'I am currently ' + age + ' years old.';
+        }
+    </script>
 </head>
 
-<body onload="timeout()" class="bg-dark">
+<body class="bg-dark" onload="calculateAgeOnLoad()">
     <nav class="navbar navbar-expand-lg bg-dark ">
         <div class="container-fluid">
             <a class="navbar-brand link-light" href="https://psummitt.github.io/Paul-M-Summitt/">
@@ -79,12 +100,12 @@
             <div class="col">
                 <div class="card" style="width:35rem;">
                     <div class="card-body">
-                        <p>Retired IT exec, educator, & Web Designer/Developer seeks part-time, remote opportunity.</p>
+                        <p>Retired IT exec, educator, &amp; Web Designer/Developer seeks part-time, remote opportunity.</p>
                         <ul class="list-group list-group-flush">
-                            <li class="list-group-item ">Age: 69</li>
-                            <li class="list-group-item ">Birthday: 7 April 1954</li>
+                            <li class="list-group-item" id="result">Age: 69</li>
+                            <li class="list-group-item " id="Birthday">Birthday: 7 April 1954</li>
                             <li class="list-group-item ">Sex: male</li>
-                            <li class="list-group-item "><a href="PMSFunctionalResume.pdf""#" class="card-link">Download Resume</a>
+                            <li class="list-group-item "><a href="PMSFunctionalResume.pdf" class="card-link">Download Resume</a>
                             </li>
                         </ul>
                     </div>
@@ -97,18 +118,18 @@
             <p id="textfooter">Let's Keep in Touch!</p>
             <!-- Social media and contact links. Add or remove any networks. -->
             <ul>
-                <li><a href="mailto:paulmsummitt@gmail.com"><img src="https://res.cloudinary.com/dhfzm8v7y/image/upload/v1656777427/images/opened-email-envelope_icon-icons.com_70656_gx2u5j.png" title="e-mail" width="20px" height="20px">
+                <li><a href="mailto:paulmsummitt@gmail.com"><img src="https://res.cloudinary.com/dhfzm8v7y/image/upload/v1656777427/images/opened-email-envelope_icon-icons.com_70656_gx2u5j.png" title="e-mail" width="20px" height="20px" alt="email enveloper icon">
                         paulmsummitt@gmail.com</a></li>
-                <li><a href="http://paulmsummitt.wordpress.com" target="_blank" rel="noopener"><img src="https://res.cloudinary.com/dhfzm8v7y/image/upload/v1656800093/images/104474_wordpress_blog_icon_yxsxrt.png" title="WordPress" width="20px" height="20px">
+                <li><a href="http://paulmsummitt.wordpress.com" target="_blank" rel="noopener"><img src="https://res.cloudinary.com/dhfzm8v7y/image/upload/v1656800093/images/104474_wordpress_blog_icon_yxsxrt.png" title="WordPress" width="20px" height="20px" alt="wordpress blog icon">
                         paulmsummitt.wordpress.com</a></li>
                 <li><a href="https://www.linkedin.com/in/paul-m-summitt/" target="_blank" rel="noopener">
-                        <img src="https://res.cloudinary.com/dhfzm8v7y/image/upload/v1656777431/images/LinkedIn_Rounded_icon-icons.com_61573_fhhjjs.png" title="LinkedIn" width="20px" height="20px">
+                        <img src="https://res.cloudinary.com/dhfzm8v7y/image/upload/v1656777431/images/LinkedIn_Rounded_icon-icons.com_61573_fhhjjs.png" title="LinkedIn" width="20px" height="20px" alt="LinkedIn Icon">
                         LinkedIn</a></li>
             </ul>
         </div>
         <p id="textbottom">©2023 by Paul M. Summitt</p>
         <p id="source"> source code :
-            <a href="https://github.com/psummitt/psummitt"><img src="https://res.cloudinary.com/dhfzm8v7y/image/upload/v1656799346/images/211903_github_social_icon_n80emp.png" title="github" id="icongithub"></a></p>
+            <a href="https://github.com/psummitt/psummitt"><img src="https://res.cloudinary.com/dhfzm8v7y/image/upload/v1656799346/images/211903_github_social_icon_n80emp.png" title="github" id="icongithub" alt="github icon"></a></p>
 
     </footer>
 
