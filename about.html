@@ -37,7 +37,7 @@
 
             // Display the result
             var resultElement = document.getElementById('result');
-            resultElement.textContent = 'I am currently ' + age + ' years old.';
+            resultElement.textContent = 'Age: ' + age;
         }
     </script>
 </head>
@@ -102,7 +102,11 @@
                     <div class="card-body">
                         <p>Retired IT exec, educator, &amp; Web Designer/Developer seeks part-time, remote opportunity.</p>
                         <ul class="list-group list-group-flush">
-                            <li class="list-group-item" id="result">Age: 69</li>
+                            <li class="list-group-item" id="result">
+                                <script>
+                                    document.getElementById("demo").innerHTML = age;
+                                </script>
+                            </li>
                             <li class="list-group-item " id="Birthday">Birthday: 7 April 1954</li>
                             <li class="list-group-item ">Sex: male</li>
                             <li class="list-group-item "><a href="PMSFunctionalResume.pdf" class="card-link">Download Resume</a>
