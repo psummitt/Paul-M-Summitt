@@ -203,6 +203,10 @@ span {
     margin-left: 50px;
 }
 
+#textfooter span {
+    color: white;
+}
+
 #source {
     color: rgb(255, 255, 255);
     font-size: 18px;
