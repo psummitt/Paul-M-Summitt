@@ -147,7 +147,7 @@ p {
 }
 
 span {
-    color: red;
+    color: white;
 }
 
 /* education */
@@ -158,6 +158,16 @@ span {
 }
 
 #imgdiploma {
+    border: 20px solid #ddd;
+    width: 320px;
+    height: 240px;
+}
+#imgdiploma2 {
+    border: 20px solid #ddd;
+    width: 320px;
+    height: 240px;
+}
+#imgdiploma3 {
     border: 20px solid #ddd;
     width: 320px;
     height: 240px;
