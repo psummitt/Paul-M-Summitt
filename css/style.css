@@ -275,3 +275,23 @@ span {
         padding: 5px;
     }
 }
+
+.custom-class {
+    display: none;
+}
+
+@media (max-width: 767.98px) {
+    .custom-class {
+        display: block;
+        color: red;
+        /* Change text color for smaller screens */
+    }
+}
+
+@media (min-width: 768px) {
+    .custom-class {
+        display: block;
+        color: blue;
+        /* Change text color for larger screens */
+    }
+}
