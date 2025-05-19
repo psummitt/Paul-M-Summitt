@@ -1,0 +1,51 @@
+P  {}
+
+H1  {font-family: "Times New Roman", Times, serif; font-style: normal; font-weight: bold; line-height: normal; color: #FFFFFF; height: auto; width: auto; border-color: #990033 #FFFFFF; background-color: #990033; padding-top: 2px; padding-bottom: 2px}
+
+H2  {font-family: "Times New Roman", Times, serif; color: #990033; font-style: normal; font-weight: bold}
+
+H3  {}
+
+A  {
+	font-size : 10pt;
+	font-family : Verdana;
+	font-weight : bold;
+	font-style : normal;
+	color : #990033;
+	text-decoration : underline;
+	text-align : center;
+}
+
+A:Visited  {
+	font-size : 10pt;
+	font-family : Verdana;
+	font-weight : bold;
+	font-style : normal;
+	text-decoration : underline;
+	text-align : center;
+; color: #990033
+}
+
+A:Active  {
+	font-size : 10pt;
+	font-family : Verdana;
+	font-weight : bold;
+	font-style : normal;
+	text-decoration : underline;
+	text-align : center;
+	color : #990033;
+}
+
+A:Hover  {
+	font-size : 10pt;
+	font-family : Verdana;
+	font-weight : bold;
+	font-style : normal;
+	color : #FFFFFF;
+	text-decoration : underline overline;
+	text-align : center;
+; background-color: #003399
+}
+
+BODY  {}
+
