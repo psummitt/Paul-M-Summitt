@@ -1,0 +1,22 @@
+HTTrack3.49-2+htsswf+htsjava launched on Fri, 16 May 2025 12:56:09 at https://web.archive.org/web/20031010071003/http://www.mocerf.org/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://web.archive.org/web/20031010071003/http://www.mocerf.org/ -O1 "C:\My Web Sites\mocert03" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+12:59:15	Error: 	"NOT FOUND" (404) at link https://web.archive.org/web/20031010071003cs_/http://www.mocerf.org/_themes/mocerf/moce1111.css (from https://web.archive.org/web/20031010071003/http://www.mocerf.org/)
+12:59:15	Error: 	"Object Not Found" (404) at link https://web.archive.org/web/20021013224925im_/http://mocerf.org/images/CERF_logo.jpg (from https://web.archive.org/web/20031010071003/http://www.mocerf.org/)
+12:59:15	Error: 	"Object Not Found" (404) at link https://web.archive.org/web/20021013095440/http://mocerf.org/_derived/publications.htm_cmp_mocerf110_vbtn.gif (from https://web.archive.org/web/20031010071003/http://www.mocerf.org/)
+12:59:15	Error: 	"Object Not Found" (404) at link https://web.archive.org/web/20021013095440im_/http://mocerf.org/_derived/publications.htm_cmp_mocerf110_vbtn.gif (from https://web.archive.org/web/20031010071003/http://www.mocerf.org/)
+12:59:15	Error: 	"Object Not Found" (404) at link https://web.archive.org/web/20020604233709/http://mocerf.org/Glossary/_derived/glossary.htm_cmp_mocerf110_vbtn_a.gif (from https://web.archive.org/web/20031010071003/http://www.mocerf.org/)
+12:59:15	Error: 	"Object Not Found" (404) at link https://web.archive.org/web/20020810224951/http://mocerf.org/_derived/search.htm_cmp_mocerf110_vbtn.gif (from https://web.archive.org/web/20031010071003/http://www.mocerf.org/)
+12:59:15	Error: 	"Object Not Found" (404) at link https://web.archive.org/web/20020810224951im_/http://mocerf.org/_derived/search.htm_cmp_mocerf110_vbtn.gif (from https://web.archive.org/web/20031010071003/http://www.mocerf.org/)
+12:59:15	Error: 	"Object Not Found" (404) at link https://web.archive.org/web/20020608221331/http://mocerf.org/_derived/sitemap.htm_cmp_mocerf110_vbtn_a.gif (from https://web.archive.org/web/20031010071003/http://www.mocerf.org/)
+12:59:15	Error: 	"Object Not Found" (404) at link https://web.archive.org/web/20021011011927/http://mocerf.org/_derived/privacypolicy.htm_cmp_mocerf110_vbtn_a.gif (from https://web.archive.org/web/20031010071003/http://www.mocerf.org/)
+12:59:15	Error: 	"NOT FOUND" (404) at link https://web.archive.org/web/20031010071003/http://www.mocerf.org/Content/Sample Periodic Payroll report (Excel 95 version).xls (from https://web.archive.org/web/20031010071003/http://www.mocerf.org/)
+12:59:15	Error: 	"NOT FOUND" (404) at link https://web.archive.org/web/20031010071003/http://www.mocerf.org/Content/When You Retire.pdf (from https://web.archive.org/web/20031010071003/http://www.mocerf.org/)
+
+HTTrack Website Copier/3.49-2 mirror complete in 3 minutes 6 seconds : 47 links scanned, 35 files written (539408 bytes overall) [426166 bytes received at 2291 bytes/sec], 989998 bytes transferred using HTTP compression in 14 files, ratio 26%, 27.0 requests per connection
+(11 errors, 0 warnings, 0 messages)
