@@ -11,8 +11,6 @@
 
 - 👨‍💻 All of my projects are available at [https://psummitt.github.io/Paul-M-Summitt/](https://psummitt.github.io/Paul-M-Summitt/)
 
-- 📝 I regularly write articles on [https://paulmsummitt.wordpress.com](https://paulmsummitt.wordpress.com)
-
 - 💬 Ask me about **Flutter, Android, network administration**
 
 - 📫 How to reach me **paulmsummitt@gmail.com**
