@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Paul M. Summitt</h1>
-<h3 align="center">A semi-retired IT executive/developer from Columbia, MO</h3>
+<h3 align="center">A retired IT executive/developer from Columbia, MO</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=psummitt&label=Profile%20views&color=0e75b6&style=flat" alt="psummitt" /> </p>
 
